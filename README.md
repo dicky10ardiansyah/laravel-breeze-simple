@@ -23,15 +23,15 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ## Installation Breeze
 
-composer require laravel/breeze --dev
-php artisan breeze:install
-npm i
-npm run build
+- composer require laravel/breeze --dev
+- php artisan breeze:install
+- npm i
+- npm run build
 
-php artisan make:migration add_username_field_in_users_table
-custom tambahan dengan username ada di pengaturan controller dan view tertentu
-kemudian di app/Request/Auth/LoginRequest.php
-jika ingin menggunakan verifikasi email aktivkan di Model User
+- php artisan make:migration add_username_field_in_users_table
+- custom tambahan dengan username ada di pengaturan controller dan view tertentu
+  kemudian di app/Request/Auth/LoginRequest.php
+- jika ingin menggunakan verifikasi email aktivkan di Model User
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
